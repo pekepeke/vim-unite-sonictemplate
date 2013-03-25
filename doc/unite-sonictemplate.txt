@@ -1,0 +1,41 @@
+*unite-sonictemplate.txt*    sonictemplate source for unite.vim
+
+Version: 0.0.1
+Author : pekepeke <pekepekesamurai+vim@gmail.com>
+License: BSD style license
+         <http://opensource.org/licenses/BSD-3-Clause>
+
+=============================================================================
+CONTENTS                            *unite-sonictemplate-contents*
+
+unite-sonictemplate             |unite-sonictemplate-introduction|
+    USAGE                              |unite-sonictemplate-usage|
+
+=============================================================================
+unite-sonictemplate                       *unite-sonictemplate-introduction*
+
+
+
+*unite-sonictemplate* is a Vim plugin to provide unite.vim source
+to select template file of |sonictemplate-vim|.
+
+Requirement:
+    - |sonictemplate-vim| (Recommend latest version at https://github.com/mattn/sonictemplate-vim)
+    - |unite.vim| (Recommend latest version at https://github.com/Shougo/unite.vim)
+
+Latest version:
+    https://github.com/pekepeke/vim-unite-sonictemplate
+
+
+-----------------------------------------------------------------------------
+USAGE                                        *unite-sonictemplate-usage*
+
+To select template, execute |:Unite| with argument of sonictemplate
+
+>
+    :Unite sonictemplate
+<
+
+
+
+vim:tw=78:ts=8:ft=help:norl:
